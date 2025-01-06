@@ -32,15 +32,15 @@ class _Answer2State extends State<Answer2> {
                   ),
                 ),
               ),
-              Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                const Text(
+              const Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                Text(
                   "Kanhokluck Nimnaul",
                   style: TextStyle(
                     fontSize: 18,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
-                const Text(
+                Text(
                   "5 minutes ago",
                   style: TextStyle(
                     fontSize: 14,
@@ -65,7 +65,7 @@ class _Answer2State extends State<Answer2> {
                 onPressed: () {
                   setState(() {});
                 },
-                child: Text('Like'),
+                child: const Text('Like'),
               ),
               const SizedBox(
                 width: 25,
@@ -74,7 +74,7 @@ class _Answer2State extends State<Answer2> {
                 onPressed: () {
                   setState(() {});
                 },
-                child: Text('Comment'),
+                child: const Text('Comment'),
               ),
               const SizedBox(
                 width: 25,
@@ -83,7 +83,7 @@ class _Answer2State extends State<Answer2> {
                 onPressed: () {
                   setState(() {});
                 },
-                child: Text('Share'),
+                child: const Text('Share'),
               ),
             ],
           )

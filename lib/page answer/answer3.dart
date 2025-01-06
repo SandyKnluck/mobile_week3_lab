@@ -24,7 +24,7 @@ class _Answer3State extends State<Answer3> {
               height: 50,
               width: 200,
               alignment: Alignment.center,
-              child: Text(
+              child: const Text(
                 'Category: Electronics',
                 style: TextStyle(fontSize: 16),
               ),
@@ -36,7 +36,7 @@ class _Answer3State extends State<Answer3> {
               Column(
                 children: [
                   Container(
-                    padding: EdgeInsets.fromLTRB(0, 15, 0, 10),
+                    padding: const EdgeInsets.fromLTRB(0, 15, 0, 10),
                     child: Image.network(
                       "https://www.jib.co.th/img_master/product/original/20240710115539_68770_23_1.jpg",
                       height: 150,
@@ -60,7 +60,7 @@ class _Answer3State extends State<Answer3> {
               Column(
                 children: [
                   Container(
-                    padding: EdgeInsets.fromLTRB(0, 15, 0, 10),
+                    padding: const EdgeInsets.fromLTRB(0, 15, 0, 10),
                     child: Image.network(
                       "https://www.istudio.store/cdn/shop/files/iPhone_16_Pro_Desert_Titanium_TH_1.jpg?v=1725929129",
                       height: 150,
@@ -88,7 +88,7 @@ class _Answer3State extends State<Answer3> {
               Column(
                 children: [
                   Container(
-                    padding: EdgeInsets.fromLTRB(0, 15, 0, 10),
+                    padding: const EdgeInsets.fromLTRB(0, 15, 0, 10),
                     child: Image.network(
                       "https://img.advice.co.th/images_nas/pic_product4/A0155056/A0155056_1.jpg",
                       height: 150,
@@ -112,7 +112,7 @@ class _Answer3State extends State<Answer3> {
               Column(
                 children: [
                   Container(
-                    padding: EdgeInsets.fromLTRB(0, 15, 0, 10),
+                    padding: const EdgeInsets.fromLTRB(0, 15, 0, 10),
                     child: Image.network(
                       "https://cdn.supercommerce.io/kareem/uploads/1603796831_1558260-1649788878.jpg",
                       height: 150,

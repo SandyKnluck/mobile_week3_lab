@@ -17,7 +17,7 @@ class _MyWidgetState extends State<Answer1> {
       ),
       body: Column(
         children: [
-          Padding(padding: const EdgeInsets.all(10)),
+          const Padding(padding: EdgeInsets.all(10)),
           Row(mainAxisAlignment: MainAxisAlignment.center, children: [
             Container(
               color: Colors.red,

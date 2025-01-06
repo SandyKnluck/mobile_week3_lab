@@ -36,7 +36,7 @@ class _Answer4State extends State<Answer4> {
                       width: 80,
                     ),
                   ),
-                  Text(
+                  const Text(
                     'Kanhokluck Nimnaul',
                     style: TextStyle(
                         color: Colors.white,
@@ -46,34 +46,34 @@ class _Answer4State extends State<Answer4> {
                 ],
               )),
           Container(
-            padding: EdgeInsets.fromLTRB(20, 20, 0, 5),
-            child: Row(
+            padding: const EdgeInsets.fromLTRB(20, 20, 0, 5),
+            child: const Row(
               children: [
                 Icon(
                   Icons.mail,
                   color: Colors.blue,
                 ),
-                const SizedBox(width: 8),
+                SizedBox(width: 8),
                 Text('nimnaul_k@silpakorn.edu'),
               ],
             ),
           ),
           Container(
-            padding: EdgeInsets.fromLTRB(20, 10, 0, 5),
-            child: Row(
+            padding: const EdgeInsets.fromLTRB(20, 10, 0, 5),
+            child: const Row(
               children: [
                 Icon(Icons.phone, color: Colors.blue),
-                const SizedBox(width: 8),
+                SizedBox(width: 8),
                 Text('096-881-5526'),
               ],
             ),
           ),
           Container(
-            padding: EdgeInsets.fromLTRB(20, 10, 0, 5),
-            child: Row(
+            padding: const EdgeInsets.fromLTRB(20, 10, 0, 5),
+            child: const Row(
               children: [
                 Icon(Icons.location_on, color: Colors.blue),
-                const SizedBox(width: 8),
+                SizedBox(width: 8),
                 Text('413 Uaieiei Street'),
               ],
             ),
@@ -86,7 +86,7 @@ class _Answer4State extends State<Answer4> {
                 onPressed: () {
                   setState(() {});
                 },
-                child: Text('EditProfile'),
+                child: const Text('EditProfile'),
               ),
               const SizedBox(
                 width: 100,
@@ -95,7 +95,7 @@ class _Answer4State extends State<Answer4> {
                 onPressed: () {
                   setState(() {});
                 },
-                child: Text('Logout'),
+                child: const Text('Logout'),
               ),
             ],
           ),
