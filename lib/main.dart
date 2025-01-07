@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:week3_lab/page%20answer/answer1.dart';
+import 'package:week3_lab/page answer/answer5.dart';
 
 void main() {
   runApp(const MyApp());
@@ -51,20 +51,70 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const Answer1());
+        home: const Answer5());
   }
 }
 
-class GreetingWidget extends StatelessWidget {
-  final String name;
-  const GreetingWidget({super.key, required this.name});
-  // This widget is the root of your application.
+class Answer1Page extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-            title: const Text('Demo APP'),
-            backgroundColor: const Color.fromARGB(255, 255, 196, 215)),
-        body: Center(child: Text('Hello, $name')));
+      appBar: AppBar(
+        title: const Text('Answer 1 Page'),
+        backgroundColor: Colors.orange,
+      ),
+      backgroundColor: const Color.fromARGB(255, 201, 235, 238),
+      body: const Center(
+        child: Text('This is Answer 1 Page'),
+      ),
+    );
+  }
+}
+
+class Answer2Page extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Answer 2 Page'),
+        backgroundColor: Colors.orange,
+      ),
+      backgroundColor: const Color.fromARGB(255, 201, 235, 238),
+      body: const Center(
+        child: Text('This is Answer 2 Page'),
+      ),
+    );
+  }
+}
+
+class Answer3Page extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Answer 3 Page'),
+        backgroundColor: Colors.orange,
+      ),
+      backgroundColor: const Color.fromARGB(255, 201, 235, 238),
+      body: const Center(
+        child: Text('This is Answer 3 Page'),
+      ),
+    );
+  }
+}
+
+class Answer4Page extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Answer 4 Page'),
+        backgroundColor: Colors.orange,
+      ),
+      backgroundColor: const Color.fromARGB(255, 201, 235, 238),
+      body: const Center(
+        child: Text('This is Answer 4 Page'),
+      ),
+    );
   }
 }
