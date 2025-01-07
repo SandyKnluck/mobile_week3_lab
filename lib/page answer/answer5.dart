@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:week3_lab/main.dart';
+
+import 'package:week3_lab/page%20answer/answer1.dart';
+import 'package:week3_lab/page%20answer/answer2.dart';
+import 'package:week3_lab/page%20answer/answer3.dart';
+import 'package:week3_lab/page%20answer/answer4.dart';
 
 class Answer5 extends StatefulWidget {
   const Answer5({super.key});
@@ -29,7 +33,7 @@ class _Answer5State extends State<Answer5> {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => Answer1Page()),
+                    MaterialPageRoute(builder: (context) => Answer1()),
                   );
                 },
                 child: const Text('Answer1'),
@@ -42,7 +46,7 @@ class _Answer5State extends State<Answer5> {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => Answer2Page()),
+                  MaterialPageRoute(builder: (context) => Answer2()),
                 );
               },
               child: const Text('Answer2'),
@@ -54,7 +58,7 @@ class _Answer5State extends State<Answer5> {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => Answer3Page()),
+                  MaterialPageRoute(builder: (context) => Answer3()),
                 );
               },
               child: const Text('Answer3'),
@@ -66,7 +70,7 @@ class _Answer5State extends State<Answer5> {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => Answer4Page()),
+                  MaterialPageRoute(builder: (context) => Answer4()),
                 );
               },
               child: const Text('Answer4'),
